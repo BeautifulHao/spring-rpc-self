@@ -6,3 +6,8 @@
    [Netty4详解一](http://blog.csdn.net/suifeng3051/article/details/23348587)
    [Netty4详解二](http://blog.csdn.net/suifeng3051/article/details/25238243)
    [Ntty4详解三](http://blog.csdn.net/suifeng3051/article/details/28861883)
+
+
+实现示意图：
+
+![avatar](https://github.com/BeautifulHao/spring-rpc-self/blob/master/mind.png)
