@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <artifactId>spring-rpc</artifactId>
+        <groupId>spring-rpc</groupId>
+        <version>1.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-rpc-common-client</artifactId>
+
+    <dependencies>
+        <!-- RPC Registry with ZooKeeper -->
+        <dependency>
+            <groupId>spring-rpc</groupId>
+            <artifactId>spring-rpc-registry-zookeeper</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <!-- RPC Common -->
+        <dependency>
+            <groupId>spring-rpc</groupId>
+            <artifactId>spring-rpc-base</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+    </dependencies>
+</project>
